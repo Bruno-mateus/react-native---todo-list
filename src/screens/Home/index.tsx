@@ -23,6 +23,28 @@ export function Home(){
                             </Text>
                         </TouchableOpacity>
                 </View>
+                <View style={styles.tasksContainer}>
+                    <View style={styles.headerTasks}>
+                        <View style={styles.statusTasks}>
+                            <Text style={{color:"#1E6F9F",fontWeight:'bold'}}>
+                                Criadas 
+                            </Text>
+                            <Text style={{color:"#1E6F9F",fontWeight:'bold',marginLeft:8, 
+                            borderRadius:999, backgroundColor:"#262626", paddingVertical:2, paddingHorizontal:8}}>
+                                0 
+                            </Text>
+                        </View>
+                        <View style={styles.statusTasks}>
+                            <Text style={{color:"#5E60CE",fontWeight:'bold', marginRight:8}}>
+                                Concluídas
+                            
+                            </Text>
+                            <Text style={{color:"#5E60CE",fontWeight:'bold',borderRadius:999,
+                             backgroundColor:"#262626", paddingVertical:2, paddingHorizontal:8}}>0</Text>
+                        </View>
+
+                    </View>
+                </View>
   
             </View>
         </View>

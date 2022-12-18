@@ -17,7 +17,7 @@ export const styles = StyleSheet.create({
     },
     content:{
         paddingHorizontal:24,
-        position:"relative",
+
         alignItems:"center"
     },
     form:{
@@ -25,9 +25,7 @@ export const styles = StyleSheet.create({
         width:'100%',
         justifyContent:'space-between',
         alignItems:"center",
-        position:'absolute',
-       
-        bottom:-35,
+        top:-35,
     },
     input:{
         backgroundColor:colors.gray500,
@@ -42,5 +40,19 @@ export const styles = StyleSheet.create({
         width:52,
         alignItems:'center',
         borderRadius:5
+    },
+    tasksContainer:{
+        width:'100%'
+    },
+    headerTasks:{
+        width:'100%',
+        flexDirection:'row',
+        justifyContent:'space-between',
+        paddingBottom:24,
+        borderBottomWidth:1,
+        borderBottomColor:colors.gray400
+    },
+    statusTasks:{
+        flexDirection:'row'
     }
 })
