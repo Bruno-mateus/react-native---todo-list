@@ -6,6 +6,7 @@ export const defaultTheme = {
         gray400:"#333333",
         gray300:"#808080",
         gray200:"#F2F2F2",
+        blueDark:"#1E6F9F",
         danger:"#E25858"
     },
     spaces:{
