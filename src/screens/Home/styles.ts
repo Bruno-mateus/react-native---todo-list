@@ -32,7 +32,8 @@ export const styles = StyleSheet.create({
         padding:16,
         flex:1,
         marginRight:4,
-        borderRadius:5
+        borderRadius:5,
+        color:colors.gray200
     },
     buttonAdd:{
         padding:19,
@@ -54,5 +55,20 @@ export const styles = StyleSheet.create({
     },
     statusTasks:{
         flexDirection:'row'
+    },
+    containerWithoutTasks:{
+        alignItems:'center',
+        marginTop:46,
+        
+    },
+    h2:{
+        fontWeight:'bold',
+        fontSize:16,
+        marginTop:20,
+        marginBottom:10,
+        color:colors.gray300
+    },
+    p:{
+        color:colors.gray300
     }
 })
